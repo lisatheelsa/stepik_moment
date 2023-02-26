@@ -20,7 +20,7 @@ public class MyPanel extends JPanel {
         this.setFocusable(true);
 
         try {
-            image = ImageIO.read(new File("luntic.jpg"));
+            image = ImageIO.read(new File("side-view-sandwich-white-bread-with-grilled-meat-cutlet-cheese-lettuce-french-fries-mayo-and-ketchup-on-a-boardjpg.jpg"));
             image = image.getScaledInstance(50, 50, Image.SCALE_SMOOTH);//Создает масштабированную версию этого изображения
         } catch (IOException e) {
             e.printStackTrace();
