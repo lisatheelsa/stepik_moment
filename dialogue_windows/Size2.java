@@ -1,4 +1,4 @@
-package step_3_5;
+package dialogue_windows;
 
 import javax.swing.*;
 import java.awt.*;
