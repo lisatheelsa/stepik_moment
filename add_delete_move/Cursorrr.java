@@ -1,4 +1,4 @@
-package step_3_4;
+package add_delete_move;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
