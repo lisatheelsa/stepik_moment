@@ -66,7 +66,7 @@ public class Main {
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();//определяем разрешение монитора
         int width = 800, height = 600;//задаем размер окна
         frame.setBounds(dim.width / 2 - width / 2, dim.height / 2 - height / 2, width, height);//выставляем размеры окна
-        BufferedImage im = ImageIO.read(new File("luntic.jpg"));
+        BufferedImage im = ImageIO.read(new File("side-view-sandwich-white-bread-with-grilled-meat-cutlet-cheese-lettuce-french-fries-mayo-and-ketchup-on-a-boardjpg.jpg"));
         JPanel panel = new JPanel(new FlowLayout(FlowLayout.LEFT));//создаем панель, чтобы ей отлавливать события клавиатуры, ставим ее слева
         panel.setFocusable(true);//делаем у панели возможность принимать фокус, иначе она не сможет отловить события клавиатуры
         l = new JLabel(new ImageIcon(im), JLabel.RIGHT);//создаем объект слева
